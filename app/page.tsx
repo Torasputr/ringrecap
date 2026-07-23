@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { getFeaturedEvent } from "./content/featured";
 
@@ -28,8 +29,17 @@ export default function HomePage() {
           Pro wrestling catch-up
         </p>
 
-        <h1 className="font-display text-6xl leading-none sm:text-7xl md:text-8xl lg:text-9xl">
-          RING RECAP
+        <h1 className="max-w-3xl">
+          <span className="sr-only">RING RECAP</span>
+          <Image
+            src="/ring-recap-logo.svg"
+            alt=""
+            width={720}
+            height={160}
+            className="h-auto w-full max-w-xl md:max-w-2xl lg:max-w-3xl"
+            priority
+            unoptimized
+          />
         </h1>
 
         <p className="mt-6 max-w-xl text-xl font-semibold tracking-tight md:text-2xl">

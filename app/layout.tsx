@@ -19,6 +19,10 @@ export const metadata: Metadata = {
   title: "Ring Recap — Pro wrestling catch-up guides",
   description:
     "Match-by-match catch-up and short watch orders so the matches hit harder. Unofficial fan site.",
+  icons: {
+    icon: "/ring-recap-icon.svg",
+    apple: "/ring-recap-icon.svg",
+  },
 };
 
 export default function RootLayout({

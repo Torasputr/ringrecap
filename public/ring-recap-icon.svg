@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none" role="img" aria-label="RING RECAP">
+  <title>RING RECAP</title>
+  <!-- Shield -->
+  <path
+    d="M24 18 H104 V78 L64 118 L24 78 Z"
+    fill="#0C0B0A"
+    stroke="#E8A317"
+    stroke-width="3"
+  />
+  <line x1="30" y1="28" x2="98" y2="28" stroke="#B42318" stroke-width="4" stroke-linecap="square" />
+  <text
+    x="34"
+    y="84"
+    fill="#F3EBE0"
+    font-family="Impact, Haettenschweiler, Arial Narrow Bold, sans-serif"
+    font-size="58"
+    font-style="italic"
+    font-weight="700"
+    letter-spacing="-0.06em"
+  >RR</text>
+  <path d="M64 108 L68 116 L64 114 L60 116 Z" fill="#E8A317" />
+</svg>
