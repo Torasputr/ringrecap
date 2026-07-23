@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Bebas_Neue, Source_Sans_3 } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import { SiteHeader } from "./components/SiteHeader";
 import { SiteFooter } from "./components/SiteFooter";
 import "./globals.css";
@@ -38,6 +39,7 @@ export default function RootLayout({
         <SiteHeader />
         <main className="flex flex-1 flex-col">{children}</main>
         <SiteFooter />
+        <Analytics />
       </body>
     </html>
   );
