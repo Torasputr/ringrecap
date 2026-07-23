@@ -9,16 +9,17 @@ export type WrestlingEvent = {
   hasGuide: boolean;
 };
 
+/** Newest featured show = last entry. Append new events at the end. */
 export const events: WrestlingEvent[] = [
   {
-    slug: "all-in-wembley",
+    slug: "redemption",
     promotionSlug: "aew",
-    name: "All In",
-    venue: "Wembley Stadium",
-    dateLabel: "Sun 30 Aug 2026",
-    blurb: "Three threads. A short watch order. Enjoy the card.",
+    name: "Redemption",
+    venue: "Bell Centre, Montreal",
+    dateLabel: "Sun 26 Jul 2026",
+    blurb: "Match-by-match catch-up for AEW’s Montreal PPV.",
     ticketUrl:
-      "https://www.allelitewrestling.com/aew-event/aew-all-in-london-2026",
+      "https://www.allelitewrestling.com/aew-event/aew-redemption",
     hasGuide: true,
   },
 ];

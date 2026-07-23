@@ -1,18 +1,19 @@
 @import "tailwindcss";
 
-:root {
-  --bg: #0c0b0a;
-  --cream: #f3ebe0;
-  --muted: #c4b8a8;
-  --accent: #b42318;
-  --accent-hover: #8f1a12;
-  --feature: #e8a317;
+/* Tailwind v4 theme tokens → utilities like text-cream, bg-accent, border-feature */
+@theme {
+  --color-background: #0c0b0a;
+  --color-cream: #f3ebe0;
+  --color-muted: #c4b8a8;
+  --color-accent: #b42318;
+  --color-accent-hover: #8f1a12;
+  --color-feature: #e8a317;
 }
 
 body {
   margin: 0;
-  background: var(--bg);
-  color: var(--cream);
+  background: var(--color-background);
+  color: var(--color-cream);
   font-family: var(--font-body), system-ui, sans-serif;
 }
 

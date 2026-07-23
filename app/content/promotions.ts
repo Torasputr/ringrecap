@@ -12,7 +12,7 @@ export const promotions: Promotion[] = [
     name: "All Elite Wrestling",
     shortName: "AEW",
     region: "US",
-    blurb: "Weekly TV and big stadium PPVs — currently featuring All In.",
+    blurb: "Weekly TV and big PPVs — currently featuring Redemption.",
   },
   {
     slug: "wwe",
@@ -45,5 +45,5 @@ export const promotions: Promotion[] = [
 ];
 
 export function getPromotion(slug: string) {
-  return promotions.find((p) => p.slug === slug)
+  return promotions.find((p) => p.slug === slug);
 }

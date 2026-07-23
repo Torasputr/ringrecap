@@ -18,7 +18,7 @@ const body = Source_Sans_3({
 export const metadata: Metadata = {
   title: "Ring Recap — Pro wrestling catch-up guides",
   description:
-    "Short story threads and watch orders so the matches hit harder. Unofficial fan site.",
+    "Match-by-match catch-up and short watch orders so the matches hit harder. Unofficial fan site.",
 };
 
 export default function RootLayout({
@@ -29,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${display.variable} ${body.variable} flex min-h-screen flex-col bg-[var(--bg)] text-[var(--cream)] antialiased`}
+        className={`${display.variable} ${body.variable} flex min-h-screen flex-col bg-background text-cream antialiased`}
       >
         <SiteHeader />
         <main className="flex flex-1 flex-col">{children}</main>

@@ -7,11 +7,11 @@ export function SiteHeader() {
         <Link href="/" className="font-display text-xl tracking-[0.12em]">
           RING RECAP
         </Link>
-        <div className="flex gap-8 text-xs font-semibold uppercase tracking-[0.18em] text-[var(--muted)]">
-          <Link href="/" className="hover:text-[var(--cream)]">
+        <div className="flex gap-8 text-xs font-semibold uppercase tracking-[0.18em] text-muted">
+          <Link href="/" className="hover:text-cream">
             Home
           </Link>
-          <Link href="/events" className="hover:text-[var(--cream)]">
+          <Link href="/events" className="hover:text-cream">
             Events
           </Link>
         </div>
