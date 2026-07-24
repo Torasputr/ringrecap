@@ -54,10 +54,10 @@ export const cards: Record<string, EventCard> = {
         youtubeId: "aeB6poTvV04",
       },
       {
-        title: "Mox & Ospreay accepted The Young Bucks' challenge",
+        title: "The Death Riders (Mox and Ospreay) have a clash against The Elite",
         why: "Locks in the trust war heading toward All In.",
-        where: "AEW Collision — Jul 18",
-        youtubeId: "EOSI6By4raA",
+        where: "AEW Dynamite - Jul 22",
+        youtubeId: "mmkVApUp1g0",
       },
       {
         title: "Willow wins the Casino Gauntlet",
@@ -67,9 +67,9 @@ export const cards: Record<string, EventCard> = {
       },
       {
         title: "Death Riders beatdown on Cope & Christian",
-        why: "The Death Riders and The Dogs attacking Cage & Cope after the match.",
-        where: "Dynamite — Jul 15",
-        youtubeId: "-RBTRrsa8wI",
+        why: "Claudio Castagnoli and PAC ambushes Cage & Cope at a backstage segment",
+        where: "Dynamite — Jul 22",
+        youtubeId: "grFVOyHdsbo",
       },
       {
         title: "Painmaker return",
@@ -88,12 +88,16 @@ export const cards: Record<string, EventCard> = {
         storySections: [
           {
             heading: "How Omega got here",
-            body: "At Beach Break (Jul 8), Kenny Omega beat MJF to become AEW World Champion again — framed as a last-chance title win. Redemption is his first defense.",
+            body: "At Beach Break (Jul 8), Kenny Omega beat MJF to become AEW World Champion again, framed as a last-chance title win since if Kenny Omega lost the match, he won't be able to challenge the AEW World Championship ever again.",
           },
           {
             heading: "Why Knight?",
             body: "TNT Champion Kevin Knight asked for the shot. He’d hoped Omega would honor a title opportunity tied to MJF’s previous promise. Omega didn’t honor that exact deal — but he still gave Knight the match.",
           },
+          {
+            heading: "The final build-up",
+            body: "After Kenny Omega's match against the Don Callis Family, Kevin Knight showed up and attacked Kenny Omega in the head with the TNT Title and made Kenny Omega bleed. Kevin Knight then stands tall while holding both the TNT Title and the AEW World Championship Title."
+          }
         ],
         watch: [
           {
@@ -108,6 +112,12 @@ export const cards: Record<string, EventCard> = {
             where: "AEW Dynamite — Jul 15",
             youtubeId: "JX_1ujXEP98"
           },
+          {
+            title: "Kevin Knight stands tall at the go home show of AEW Redemption",
+            why: "Shows what might happen at AEW Redemption if Kevin Knight wins (Jet 2 Belts)",
+            where: "AEW Dynamite — Jul 22",
+            youtubeId: "Zj4QmZo5goE"
+          }
         ],
       },
       {
@@ -129,6 +139,10 @@ export const cards: Record<string, EventCard> = {
             heading: "All In shadow",
             body: "After the Gauntlet, Owen Hart Cup winner Mercedes Moné attacked both Willow and Thekla. Whoever leaves Montreal with the title is already on Mercedes’ radar for All In.",
           },
+          {
+            heading: "The face off",
+            body: "At AEW Dynamite (Jul 22), the champion and the challenger faced off, hosted by Mick Foley. The interaction got heated after Thekla disrespected Mick Foley and smacked WIllow in the head with her glove and then spiked Willow with the mic.",
+          },
         ],
         watch: [
           {
@@ -137,6 +151,12 @@ export const cards: Record<string, EventCard> = {
             where: "Dynamite: Beach Break — Jul 8",
             youtubeId: "l8a3yMI8QfQ",
           },
+          {
+            title: "Willow Nightingale and Thekla's face off",
+            why: "Builds up the fight",
+            where: "Dynamite (Jul 22)",
+            youtubeId: "XDdjjK3TrlQ"
+          }
         ],
       },
       {
@@ -151,22 +171,23 @@ export const cards: Record<string, EventCard> = {
         storySections: [
           {
             heading: "Death Riders pressure",
-            body: "Adam Copeland and Christian Cage have been absorbing attacks from the Dogs which is an ally of Death Riders. Instead of staying on defense, they called out Claudio Castagnoli and PAC for the tag titles at Redemption.",
+            body: "Adam Copeland and Christian Cage have been absorbing attacks from the Dogs which is an ally of Death Riders. Instead of staying on defense, they called out The Death Riders to challenge them for the tag titles at Redemption.",
           },
           {
-            heading: "Why these four",
-            body: "Claudio and PAC are the faction’s enforcer lane. This is less a random tag bout and more “can the champs survive the stable.”",
-          },
-          {
-            heading: "Same war, other match",
-            body: "Pair this with Moxley & Ospreay vs the Young Bucks — Death Riders influence shows up in two places on the card.",
+            heading: "The Death Riders answered",
+            body: "PAC and Claudio Castagnoli has answered the challenge at the backstage segment of AEW Dynamite (Jul 22) where they immediately assaulted Christian Cage and Adam Copeland.",
           },
         ],
         watch: [
           {
             title: "Recent Death Riders and The Dogs attack on the champs",
-            why: "Makes the title match feel like payback, not filler.",
+            why: "Makes the title match feel like payback.",
             youtubeId: "-RBTRrsa8wI"
+          },
+          {
+            title: "AEW Dynamite Backstage Segment",
+            why: "Where the real grudge sets in",
+            youtubeId: "grFVOyHdsbo"
           },
         ],
       },
@@ -185,13 +206,23 @@ export const cards: Record<string, EventCard> = {
             heading: "The challenge",
             body: "That collision was enough — Fletcher challenged ROH World Champion Bandido for the International title at Redemption.",
           },
+          {
+            heading: "The preview",
+            body: `On the Jul 22 episode of AEW Dynamite, "The Protostar" Kyle Fletcher teamed with his stablemate "The Rainmaker" Kazuchika Okada in the "ProtOkada" against the team of Brody King and Bandido, "Brodido". Kazuchika Okada mistakenly hit Kyle Fletcher with his finisher, The Rainmaker, which makes Bandido to be able to get the pin on The Protostar. Will there be a rift on Kazuchika Okada and Kyle Fletcher?`
+          }
         ],
         watch: [
           {
             title: "Fletcher vs Komander International Title Match and Post Match",
             why: "Shows how the title match got made.",
-            where: "AEW Dynamite — Jul 15",
+            where: "AEW Dynamite - Jul 15",
             youtubeId: "WAv6LTPiBpw"
+          },
+          {
+            title: "ProtOkada vs Brodido match highlights",
+            why: "The preview of the Redemption match",
+            where: "AEW Dynamite - Jul 22",
+            youtubeId: "p5ryAl5rFvI"
           },
         ],
       },
@@ -309,19 +340,29 @@ export const cards: Record<string, EventCard> = {
             heading: "Collision (Jul 18)",
             body: "The Bucks challenged Moxley and Ospreay at Redemption to show Kenny he can’t trust a Death Rider. Mox accepted, calling it personal and admitting he’s always had disdain for “all things Elite.”",
           },
+          {
+            heading: "The clash",
+            body: `After the main event of the Jul 22 episode of AEW Dynamite, Kenny Omega tried to straighten things up with Mox after he mistakenly hit Mox with a V-Trigger. They proceed to have a push off with Will Ospreay trying to separate them but got pushed by Kenny instead. The Young Bucks then tried to support Kenny Omega and it turned out to be a huge brawl in the ring.`,
+          },
         ],
         watch: [
           {
             title: "Bucks present the title to Omega",
             why: "The moment that made the Bucks smell a setup.",
-            where: "AEW Dynamite — Jul 15",
+            where: "AEW Dynamite - Jul 15",
             youtubeId: "8HV2sjQeh-8"
           },
           {
             title: "Mox & Ospreay accepts",
             why: "Locks the match and the trust angle.",
-            where: "AEW Collision — Jul 18",
+            where: "AEW Collision - Jul 18",
             youtubeId: "EOSI6By4raA"
+          },
+          {
+            title: "Main event post match",
+            why: "The last brawl before the match",
+            where: "AEW Dynamite - Jul 22",
+            youtubeId: "mmkVApUp1g0?t=353"
           },
         ],
       },
@@ -365,36 +406,37 @@ export const cards: Record<string, EventCard> = {
           },
         ],
       },
-      // {
-      //   id: "double-chain",
-      //   wrestlers: [
-      //     "Bang Bang Gang (Jay White & Juice Robinson)",
-      //     "The Dogs (David Finlay & Clark Connors)",
-      //   ],
-      //   stakes: "Double Chain tag match — faction blood feud",
-      //   teaser: "White’s return war with The Dogs gets a stipulation.",
-      //   storySections: [
-      //     {
-      //       heading: "The feud so far",
-      //       body: "The Dogs cost Juice Robinson a match earlier this summer (Finlay’s shillelagh). Jay White returned at Forbidden Door and hit Finlay with a Blade Runner during The Dogs’ tag title challenge — helping Cope & Christian retain.",
-      //     },
-      //     {
-      //       heading: "Dynamite (Jul 22)",
-      //       body: "White beat Clark Connors in singles. Post-match chaos followed: Connors kept fighting, Finlay cracked White with the shillelagh, and the Bang Bang Gang made the save — Juice carrying a chain.",
-      //     },
-      //     {
-      //       heading: "The challenge",
-      //       body: "Robinson challenged Finlay and Connors to a Double Chain tag match at Redemption. Tony Khan made it official.",
-      //     },
-      //   ],
-      //   watch: [
-      //     {
-      //       title: "White vs Connors + post-match brawl",
-      //       why: "Shows why the double chain stipulation exists.",
-      //       where: "AEW Dynamite — Jul 22",
-      //     },
-      //   ],
-      // },
+      {
+        id: "double-chain",
+        wrestlers: [
+          "Bang Bang Gang",
+          "The Dogs",
+        ],
+        stakes: "Double Chain tag match — faction blood feud",
+        teaser: "White’s return war with The Dogs gets a stipulation.",
+        storySections: [
+          {
+            heading: "The feud so far",
+            body: "Switchblade Jay White returned at Forbidden Door and hit Finlay with a Blade Runner during The Dogs’ tag title challenge - helping Cope & Christian retain.",
+          },
+          {
+            heading: "Dynamite (Jul 22)",
+            body: "White beat Clark Connors in singles. Post-match chaos followed: Connors kept fighting, Finlay cracked White with the shillelagh, and the Bang Bang Gang made the save with Juice carrying a chain.",
+          },
+          {
+            heading: "The challenge",
+            body: "Robinson challenged Finlay and Connors to a Double Chain tag match at Redemption.",
+          },
+        ],
+        watch: [
+          {
+            title: "White vs Connors + post-match brawl",
+            why: "Shows why the double chain stipulation exists.",
+            where: "AEW Dynamite — Jul 22",
+            youtubeId: "FIg7-HDXOMw"
+          },
+        ],
+      },
     ],
     afterShow:
       "Will be updated after the show",
