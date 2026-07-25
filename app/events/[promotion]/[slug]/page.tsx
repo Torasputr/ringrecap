@@ -250,6 +250,16 @@ export default async function EventGuidePage({ params }: Props) {
           {card.afterShow}
         </p>
       </section>
+
+      {promotion.slug === "aew" ? (
+        <p className="mt-14 max-w-2xl border-t border-white/10 pt-8 text-xs leading-relaxed text-muted">
+          All Elite Wrestling, AEW, wrestler names, logos, match footage, graphics,
+          and related materials are trademarks and copyright of All Elite Wrestling,
+          LLC. RING RECAP is an unofficial fan guide and is not affiliated with or
+          endorsed by AEW. Content is used for commentary and catch-up purposes
+          only.
+        </p>
+      ) : null}
     </article>
   );
 }

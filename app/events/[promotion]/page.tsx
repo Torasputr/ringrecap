@@ -82,6 +82,16 @@ export default async function PromotionEventsPage({ params }: Props) {
           ))}
         </ul>
       )}
+
+      {promotion.slug === "aew" ? (
+        <p className="mt-16 max-w-2xl border-t border-white/10 pt-8 text-xs leading-relaxed text-muted">
+          All Elite Wrestling, AEW, wrestler names, logos, match footage, graphics,
+          and related materials are trademarks and copyright of All Elite Wrestling,
+          LLC. RING RECAP is an unofficial fan guide and is not affiliated with or
+          endorsed by AEW. Content is used for commentary and catch-up purposes
+          only.
+        </p>
+      ) : null}
     </section>
   );
 }
