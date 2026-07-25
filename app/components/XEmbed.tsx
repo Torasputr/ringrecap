@@ -138,7 +138,6 @@ export function XEmbed({
           className="absolute inset-0 h-full w-full object-cover"
           src={media.videoUrl}
           muted
-          defaultMuted
           playsInline
           autoPlay
           loop
