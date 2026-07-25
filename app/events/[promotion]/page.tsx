@@ -48,7 +48,9 @@ export default async function PromotionEventsPage({ params }: Props) {
               <h2 className="mt-1 font-display text-3xl md:text-4xl">
                 {event.name}
               </h2>
-              <p className="mt-1 text-sm text-cream opacity-90">{event.venue}</p>
+              <p className="mt-1 text-sm text-cream opacity-90">
+                {[event.venue, event.city].filter(Boolean).join(" · ")}
+              </p>
               <p className="mt-2 max-w-xl text-sm text-muted">{event.blurb}</p>
 
               <div className="mt-4 flex flex-wrap items-center gap-5">

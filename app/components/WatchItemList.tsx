@@ -23,6 +23,15 @@ export function WatchItemList({ items }: WatchItemListProps) {
           ) : null}
           {item.youtubeId ? (
             <YouTubeEmbed videoId={item.youtubeId} title={item.title} />
+          ) : item.xStatusUrl ? (
+            <a
+              href={item.xStatusUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-3 inline-flex text-sm font-semibold text-feature underline-offset-2 hover:underline"
+            >
+              Watch on X ↗
+            </a>
           ) : null}
         </li>
       ))}
