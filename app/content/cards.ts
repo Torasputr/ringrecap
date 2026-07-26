@@ -121,6 +121,10 @@ export const cards: Record<string, EventCard> = {
             heading: "The Death Riders answered",
             body: "Pac and Claudio Castagnoli has answered the challenge at the backstage segment of AEW Dynamite (Jul 22) where they immediately assaulted Christian Cage and Adam Copeland.",
           },
+          {
+            heading: "Collision (Jul 25)",
+            body: "During the Young Bucks’ match against Daniel Garcia and Wheeler Yuta, Claudio and Pac tried to interfere. Cope and Cage ran them off — another reminder that the tag champs and the Death Riders are already colliding before Redemption.",
+          },
         ],
         watch: [
           {
@@ -139,6 +143,12 @@ export const cards: Record<string, EventCard> = {
             title: "AEW Dynamite Backstage Segment",
             why: "Where the real grudge sets in",
             youtubeId: "grFVOyHdsbo",
+          },
+          {
+            title: "Cope & Cage clear out Pac & Claudio",
+            why: "Go-home Collision — champs step up for the Bucks against Death Riders muscle.",
+            where: "AEW Collision — Jul 25",
+            youtubeId: "4pH_pkOcInc",
           },
         ],
       },
@@ -161,6 +171,10 @@ export const cards: Record<string, EventCard> = {
             heading: "Why Maya gets the match",
             body: "That save was enough for AEW to book Maya World vs Shida for the TBS title at Redemption.",
           },
+          {
+            heading: "Collision (Jul 25)",
+            body: "On the go-home Collision, Thekla & Hikaru Shida teamed against Willow Nightingale & Maya World. Shida hit Maya with a kendo stick behind the ref’s back, and Thekla pinned her. Same cheat energy as the Aminata match — Shida is still targeting Maya heading into Redemption.",
+          },
         ],
         watch: [
           {
@@ -169,6 +183,12 @@ export const cards: Record<string, EventCard> = {
             where: "AEW on X",
             xStatusUrl:
               "https://x.com/AEW/status/2081024171765805087/video/1",
+          },
+          {
+            title: "Thekla & Shida vs Willow & Maya",
+            why: "Go-home Collision — Shida’s kendo stick sets up Thekla’s pin on Maya.",
+            where: "AEW Collision — Jul 25",
+            youtubeId: "bXNU8A6SL5c",
           },
         ],
       },
@@ -199,7 +219,11 @@ export const cards: Record<string, EventCard> = {
           },
           {
             heading: "Why this ladder match",
-            body: "A six-way ladder match decides who becomes the next challenger for the International title. Jack Perry, Beast Mortos, Komander, and Speedball Mike Bailey were named first, with Nick Wayne and El Clon earning the final spots.",
+            body: "A six-way ladder match decides who becomes the next challenger for the International title. Jack Perry, Beast Mortos, Komander, and Speedball Mike Bailey were named first.",
+          },
+          {
+            heading: "Collision (Jul 25)",
+            body: "Nick Wayne and El Clon won their qualifier matches on Collision to lock in the final two spots in the six-way ladder match.",
           },
         ],
       },
@@ -349,6 +373,10 @@ export const cards: Record<string, EventCard> = {
             heading: "The clash",
             body: "After the main event of the Jul 22 episode of AEW Dynamite, Kenny Omega tried to straighten things up with Mox after he mistakenly hit Mox with a V-Trigger. They proceed to have a push off with Will Ospreay trying to separate them but got pushed by Kenny instead. The Young Bucks then tried to support Kenny Omega and it turned out to be a huge brawl in the ring.",
           },
+          {
+            heading: "Collision (Jul 25)",
+            body: "During the Young Bucks’ match against Daniel Garcia and Wheeler Yuta, Claudio and Pac tried to interfere — Cope and Cage cleared them out. Later the Bucks confronted Moxley, then Ospreay hit them with the Hidden Blade. Go-home statement before Redemption.",
+          },
         ],
         watch: [
           {
@@ -369,6 +397,12 @@ export const cards: Record<string, EventCard> = {
             where: "AEW on X — Jul 22",
             xStatusUrl:
               "https://x.com/AEW/status/2081039270551130416/video/1",
+          },
+          {
+            title: "Young Bucks vs Mox & Ospreay heat",
+            why: "Go-home Collision — confrontation and Hidden Blade before Redemption.",
+            where: "AEW Collision — Jul 25",
+            youtubeId: "C0FSDMJAHf0",
           },
         ],
       },
@@ -395,6 +429,10 @@ export const cards: Record<string, EventCard> = {
             heading: "The face off",
             body: "At AEW Dynamite (Jul 22), the champion and the challenger faced off, hosted by Mick Foley. The interaction got heated after Thekla disrespected Mick Foley and smacked Willow in the head with her glove and then spiked Willow with the mic.",
           },
+          {
+            heading: "Collision (Jul 25)",
+            body: "Thekla & Hikaru Shida beat Willow Nightingale & Maya World in a tag main event. Shida hit Maya with a kendo stick, and Thekla got the pin. Thekla stays dangerous heading into Willow at Redemption — and Shida’s interference keeps the women’s division messy.",
+          },
         ],
         watch: [
           {
@@ -415,6 +453,12 @@ export const cards: Record<string, EventCard> = {
             why: "Builds up the fight",
             where: "Dynamite (Jul 22)",
             youtubeId: "XDdjjK3TrlQ",
+          },
+          {
+            title: "Thekla & Shida vs Willow & Maya",
+            why: "Go-home Collision — champions take momentum into Redemption.",
+            where: "AEW Collision — Jul 25",
+            youtubeId: "bXNU8A6SL5c",
           },
         ],
       },
